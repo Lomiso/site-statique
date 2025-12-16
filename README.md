@@ -1,2 +1,2 @@
 # site-statique
-aaa
+projet dev site pour entreprise fictive
