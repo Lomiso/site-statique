@@ -1,0 +1,46 @@
+head{
+    font-family: Montserrat;
+}
+
+body{
+    font-family: Montserrat;
+}
+
+#header{
+    background-color: #152237;
+    color: white;
+}
+#titre{
+    background: linear-gradient(to right, #44DD8A, #15B7E2) ;
+    text-align: center;
+    font-weight: bolder;
+
+}
+#butongreen{
+    background-color: #44DD8A;
+}
+#butongreenblue{
+    background: linear-gradient(to right, #44DD8A, #15B7E2) ;
+}
+#petitlogo{
+    height: 31px;
+    width: 84px;
+    margin-left: 98px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#biglogo{
+    height: 155px;
+    width: 430px;
+    
+}
+#bottomlogo{
+    height: 87px;
+    width: 243px;
+    margin-left: 96px;
+    margin-top: 109px;
+}
+#footer{
+    background-color: #152237;
+    color: white;
+}
