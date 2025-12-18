@@ -48,19 +48,28 @@ body{
     background-color: #152237;
     color: white;
     display: flex;
-    justify-content: space-around; /* espace entre les 4 box */
-    flex-wrap: wrap;               /* permet retour à la ligne si écran trop petit */
-    gap: 100px;                     /* espace entre les box */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
     padding: 20px;
 
 }
 .box {
     color: white;
     padding: 15px;
-    width: 362px;                  /* largeur fixe */
+    width: 362px;
 }
 
-.etoile {
+#etoile {
     color: #FFC700;
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: black;
+    background: linear-gradient(to right, #44DD8A, #15B7E2) ;
+    text-decoration: none;
 }
 
