@@ -99,3 +99,23 @@ a.buttonw {
 .invi{
     opacity: 0.33;
 }
+.boxW {
+    color: #152237;
+    width: 362px;
+}
+.containerboxW {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    margin-top: 40px;
+
+}
+#formpop{
+    color: #152237;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 50px;
+
+}
