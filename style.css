@@ -44,3 +44,23 @@ body{
     background-color: #152237;
     color: white;
 }
+#formrec{
+    background-color: #152237;
+    color: white;
+    display: flex;
+    justify-content: space-around; /* espace entre les 4 box */
+    flex-wrap: wrap;               /* permet retour à la ligne si écran trop petit */
+    gap: 100px;                     /* espace entre les box */
+    padding: 20px;
+
+}
+.box {
+    color: white;
+    padding: 15px;
+    width: 362px;                  /* largeur fixe */
+}
+
+.etoile {
+    color: #FFC700;
+}
+
