@@ -4,6 +4,7 @@ head{
 
 body{
     font-family: Montserrat;
+    margin: 0px;
 }
 
 #header{
@@ -21,6 +22,7 @@ body{
 }
 #butongreenblue{
     background: linear-gradient(to right, #44DD8A, #15B7E2) ;
+    height: 40px;
 }
 #petitlogo{
     height: 31px;
@@ -62,14 +64,15 @@ body{
 #etoile {
     color: #FFC700;
 }
-
 a.buttongb {
     padding: 1px 6px;
     border: 1px outset buttonborder;
     border-radius: 3px;
-    color: 152237;
+    color: #152237;
     background: linear-gradient(to right, #44DD8A, #15B7E2) ;
     text-decoration: none;
+    height: 40px;
+    margin-top: 20px;
 }
 
 a.buttonb {
@@ -89,6 +92,8 @@ a.buttonw {
     background:white ;
     text-decoration: none;
     text-align: center;
+    height: 40px;
+    margin-top: 20px;
 }
 .containerbox {
     display: grid;
@@ -117,5 +122,50 @@ a.buttonw {
     flex-wrap: wrap;
     gap: 80px;
     padding: 50px;
+
+}
+
+.containerbox5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    margin-top: 40px;
+}
+#adv{
+    background-color: #F5F5F5;
+       margin-top: 0px;
+       margin-bottom: 0px;
+}
+#creaform{
+    background-color: #44DD8A;
+ 
+}
+.containerbox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    margin-top: 40px;
+}
+#propos{
+    background-color: #F5F5F5;
+}
+#biglogo{
+    height: 150px;
+    width: 430px;
+margin-right: auto;
+    background-color: #152237;
+}
+.containerapropos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+    margin-top: 0px;
+}
+.containeraproposlogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+background-color: #152237;
+margin-right: 100px;
 
 }
