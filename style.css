@@ -169,3 +169,68 @@ background-color: #152237;
 margin-right: 100px;
 
 }
+
+@media (max-width: 768px) {
+  /* Grilles en colonne unique */
+  .containerbox, .containerboxW, .containerbox5 {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+    margin: 20px auto !important;
+  }
+  /* Sections principales en flex-colonne */
+  #formpop, #formrec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px !important;
+    gap: 20px;
+  }
+  /* Avantages, création, à propos, contact empilés verticalement */
+  #adv, #creaform, #propos, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Logos centrés et redimensionnés */
+  #petitlogo, #biglogo, #bottomlogo {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 10px auto;
+  }
+  /* Boutons en pleine largeur pour mobile */
+  a.buttonb, a.buttonw, a.buttongb,
+  #butongreen, #butongreenblue {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1rem;
+    text-align: center;
+  }
+  /* Images adaptatives */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Pied de page : boutons empilés */
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  #footer button {
+    width: 100%;
+    max-width: 250px;
+    margin: 5px 0;
+  }
+  /* Textes : ajustements de taille pour lisibilité */
+  h1 { font-size: 1.5em; }
+  h2 { font-size: 1.25em; }
+  h3 { font-size: 1em; }
+}
